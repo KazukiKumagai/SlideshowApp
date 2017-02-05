@@ -14,6 +14,7 @@
 		DA840B901E4215DC002A895C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA840B8E1E4215DC002A895C /* LaunchScreen.storyboard */; };
 		DA840B9B1E4215DD002A895C /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA840B9A1E4215DD002A895C /* SlideshowAppTests.swift */; };
 		DA840BA61E4215DD002A895C /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA840BA51E4215DD002A895C /* SlideshowAppUITests.swift */; };
+		DA840BB41E45DD78002A895C /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA840BB31E45DD78002A895C /* nextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA840BA11E4215DD002A895C /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA840BA51E4215DD002A895C /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		DA840BA71E4215DD002A895C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA840BB31E45DD78002A895C /* nextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 				DA840B851E4215DC002A895C /* AppDelegate.swift */,
 				DA840B871E4215DC002A895C /* ViewController.swift */,
 				DA840B891E4215DC002A895C /* Main.storyboard */,
-				DA840B8C1E4215DC002A895C /* Assets.xcassets */,
+				DA840BB31E45DD78002A895C /* nextViewController.swift */,
 				DA840B8E1E4215DC002A895C /* LaunchScreen.storyboard */,
+				DA840B8C1E4215DC002A895C /* Assets.xcassets */,
 				DA840B911E4215DC002A895C /* Info.plist */,
 			);
 			path = SlideshowApp;
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA840BB41E45DD78002A895C /* nextViewController.swift in Sources */,
 				DA840B881E4215DC002A895C /* ViewController.swift in Sources */,
 				DA840B861E4215DC002A895C /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				DA840BAC1E4215DD002A895C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA840BAD1E4215DD002A895C /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				DA840BAF1E4215DD002A895C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA840BB01E4215DD002A895C /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				DA840BB21E4215DD002A895C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
